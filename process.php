@@ -1,8 +1,8 @@
 <?php
-$host = "your_rds_hostname";
-$dbname = "your_database_name";
-$username = "your_db_username";
-$password = "your_db_password";
+$host = "$RDS_ENDPOINT";
+$dbname = "pridatabase";
+$username = "priuser";
+$password = "pripassword";
 
 try {
     $db = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

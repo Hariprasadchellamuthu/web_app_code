@@ -1,5 +1,5 @@
 <?php
-$host = "$RDS_ENDPOINT";
+$host = getenv('RDS_ENDPOINT');
 $dbname = "pridatabase";
 $username = "priuser";
 $password = "pripassword";

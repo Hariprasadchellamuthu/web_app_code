@@ -1,5 +1,5 @@
 <?php
-$host = getenv('RDS_ENDPOINT');
+$host = file_get_contents('/tmp/rds_endpoint.txt');
 $dbname = "pridatabase";
 $username = "priuser";
 $password = "pripassword";

@@ -1,5 +1,5 @@
 <?php
-$host = file_get_contents('/tmp/rds_endpoint.txt');
+$host = pridatabase.cubbgjg2ffrq.us-east-1.rds.amazonaws.com;
 $dbname = "pridatabase";
 $username = "priuser";
 $password = "pripassword";

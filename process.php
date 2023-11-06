@@ -1,5 +1,5 @@
 <?php
-$host = pridatabase.cubbgjg2ffrq.us-east-1.rds.amazonaws.com;
+$host = "pridatabase.cubbgjg2ffrq.us-east-1.rds.amazonaws.com";
 $dbname = "pridatabase";
 $username = "priuser";
 $password = "pripassword";
